@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Poppins:wght@100&family=Roboto:wght@900&display=swap');
+
+*{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.netflix_card{
+    height: 75vh;
+    background-color: black;
+}
+
+.netflix_card_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflix_card_container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 16vh;
+}
+
+.netflix_card_container-text h1,p{
+    margin-left: 11vw;
+}
+
+.netflix_card_container-text,h1{
+    font-size: 45px;
+
+    margin-bottom: 20px;
+}
+
+.netflix_card_container-text p{
+    font-size: 20px;
+}
+
+.netflix_card_container-photo img{
+    height: 410px;
+    width: 546px;
+}
+
+.netflix_card_container-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 10vw;
+    margin-top: 9vh;
+}
+
+.netflix_card_container-photo video{
+    width: 398px;
+    height: 223px;
+    margin-bottom: 13px;
+    position: absolute;
+
+    
+}

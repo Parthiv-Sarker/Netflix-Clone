@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.netflix_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.netflix_navbar-logo img{
+    height: 70%;
+    width: 160px;
+
+    margin-top: 20px;
+    margin-left: 13vw;
+}
+
+.netflix_navbar-button {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 13vw;
+    gap: 15px;
+}
+
+.netflix_navbar-button-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 32px;
+    width: 140px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(89, 89, 89);
+    background-color: rgba(0, 0, 0 ,.5);
+}
+
+.netflix_navbar-button-lang i{
+    size: 12px;
+}
+
+.netflix_navbar-button-lang h6{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.netflix_navbar-button-signin h6{
+    font-size: 13px;
+    font-weight: 2px;
+}
+
+.netflix_navbar-button-signin{
+    height: 32px;
+    width: 80px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: red;
+}

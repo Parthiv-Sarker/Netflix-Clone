@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.netflix_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 50vh;
+
+    margin-top: 30vh;
+}
+
+.netflix_header-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.netflix_header-p h6{
+    font-size: 23px;
+    font-weight: normal;
+}
+
+.netflix_header-getstart{
+    display: flex;
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.netflix_header-getstart input{
+    height: 50px;
+    width: 24vw;
+
+    background-color: rgba(29, 29, 29, 0.7);
+
+    border: 1px solid rgb(52, 52, 52);
+    border-radius: 3px;
+}
+
+.netflix_header-getstart ::placeholder{
+    color: rgb(174, 174, 174);
+    font-size: 16px;
+    padding-left: 18px;
+}
+
+.netflix_header-getstart button{
+    height: 50px;
+    width: 13vw;
+
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+}
+
+.getstart-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getstart-button h6{
+    font-size: 24px;
+    font-weight: 600;
+}

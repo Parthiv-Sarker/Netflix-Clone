@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;900&family=Poppins:wght@100&family=Roboto:wght@900&display=swap');
+
+*{
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.netflix-watchcard{
+    height: 75vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.netflix-watchcard-text{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin-left: 10vw;
+}
+
+.netflix-watchcard-text h3{
+    font-weight: normal;
+}
+
+.netflix-watchcard-rightbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 15vw;
+}
+
+.netflix-watchcard-rightbar img{
+    height: 380px;
+    position: absolute;
+}
+
+.netflix-watchcard-rightbar video{
+    height: 400px;
+    width: 320px;
+
+    margin-bottom: 18vh;
+}

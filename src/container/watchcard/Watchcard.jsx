@@ -15,9 +15,8 @@ const Watchcard = () => {
       <div className="netflix-watchcard-rightbar">
         <img src={photo} alt="" />
         <video src={video} 
-            type="video/mp4"
+            muted
             loop
-            controls={false}
             autoPlay
         />
       </div>

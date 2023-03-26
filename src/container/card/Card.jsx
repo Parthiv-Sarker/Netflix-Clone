@@ -14,9 +14,10 @@ const card = () => {
             </div>
             <div className="netflix_card_container-photo">
                 <img src={photo} alt="Tv-Photo" />
-                <video src={video}
-                    loop
+                <video src= {video}
+                    muted
                     autoPlay
+                    loop
                 />
             </div>
         </div>
